@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SwabbieGames</title>
+  <title>SwabbieGames - 9 Trials of Whiskers</title>
   <style>
     body {
       margin: 0;
@@ -13,9 +13,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
+      padding: 40px;
     }
     h1 {
       font-size: 3rem;
@@ -41,6 +40,25 @@
       height: auto;
       margin-bottom: 2rem;
     }
+    .section {
+      text-align: left;
+      max-width: 800px;
+      margin-top: 60px;
+    }
+    .section h2 {
+      margin-top: 40px;
+      font-size: 1.8rem;
+    }
+    .section pre {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      white-space: pre-wrap;
+      border-radius: 8px;
+    }
+    .section a {
+      color: #ffcc00;
+    }
   </style>
 </head>
 <body>
@@ -51,6 +69,25 @@
     <a href="https://discord.gg/sUgdR6qFJS" target="_blank">Join Discord</a>
     <a href="https://store.steampowered.com/app/3564700" target="_blank">Wishlist on Steam</a>
     <a href="https://www.youtube.com/@SwabbieGames" target="_blank">Watch on YouTube</a>
+  </div>
+
+  <div class="section">
+    <h1>🐾 9 Trials of Whiskers</h1>
+
+    <h2>📢 Latest Update</h2>
+    <pre>{{ latest_update }}</pre>
+
+    <h2>🛠️ Latest Patch Notes</h2>
+    <pre>{{ latest_patch_notes }}</pre>
+
+    <h2>🗺️ Latest Roadmap</h2>
+    <pre>{{ latest_roadmap }}</pre>
+
+    <hr />
+    <p>
+      Join the <a href="https://discord.gg/sUgdR6qFJS" target="_blank">SwabbieGames Discord</a>
+      for full update history, patch notes, roadmap discussion, and to be part of the community!
+    </p>
   </div>
 </body>
 </html>
