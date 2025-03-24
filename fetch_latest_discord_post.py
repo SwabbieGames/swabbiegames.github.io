@@ -2,7 +2,7 @@ import discord
 import asyncio
 import os
 
-BOT_TOKEN = os.environ['DISCORD_BOT_TOKEN']
+BOT_TOKEN = os.environ['DISCORD_TOKEN']
 
 # Channel name -> Channel ID mapping
 CHANNELS = {
