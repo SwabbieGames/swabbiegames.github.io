@@ -27,3 +27,11 @@ jobs:
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
         run: python fetch_latest_discord_post.py
+
+      - name: Commit updated discord_posts
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add discord_posts/*
+          git commit -m "Update Discord posts"
+          git push
