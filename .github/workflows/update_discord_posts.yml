@@ -30,11 +30,13 @@ jobs:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
         run: python fetch_latest_discord_post.py
 
-      - name: Commit updated discord_posts
+      - name: Update index.html with latest Discord content
+        run: python update_index_html.py
+
+      - name: Commit updated discord_posts and index.html
         run: |
           git config user.name "SwabbieUpdater"
           git config user.email "swabbiegames.nysveen@gmail.com"
-          git add discord_posts/*
-          git commit -m "Update Discord posts"
+          git add discord_posts/* index.html
+          git commit -m "Update Discord posts and refresh website"
           git push
-
