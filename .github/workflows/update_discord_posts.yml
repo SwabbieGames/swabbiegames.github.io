@@ -30,8 +30,8 @@ jobs:
 
       - name: Commit updated discord_posts
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name "SwabbieUpdater"
+          git config user.email "swabbiegames.nysveen@gmail.com"
           git add discord_posts/*
           git commit -m "Update Discord posts"
-          git push
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
