@@ -25,7 +25,7 @@ class DiscordClient(discord.Client):
             try:
                 messages = [msg async for msg in channel.history(limit=1)]
                 message = messages[0]  # get the first message object
-                filename = name
+                filename = f'discord_posts/{name}'
 
                 with open(filename, 'w', encoding='utf-8') as f:
                     f.write(message.content)
