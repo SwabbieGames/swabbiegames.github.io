@@ -1,0 +1,6 @@
+The first day of working on achievements is coming to an end!
+Most of the time was spent researching how achievements connect to Steam through its API. By the end of the day, I had created achievement icons for each trial (1-9) and successfully tested adding an achievement in Steamworks.
+
+Over the coming week, I'll be creating art for many more achievement types. After that, I'll implement the achievements in-game and test them on Steam. This will also mark the first time the game interacts with the Steam server, allowing me to track stats—like how many times players have died, both individually and across all players.
+
+There will be six hidden achievements in the game... When earned, they will ignite a torch shining onto their corresponding painting in the first hallway.
