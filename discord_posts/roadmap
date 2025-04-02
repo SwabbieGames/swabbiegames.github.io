@@ -1,34 +1,34 @@
-**By March 21, 2025:**
-- Steam page finalized – Includes screenshots, descriptions, and trailer.
-- Achievement & menu art updated – Temporary AI art will be replaced with edited in-game screenshots.
-- Submit test build to Steam – First round of testing before demo launch. 
+🗺️** 9 Trials of Whiskers –  Roadmap **
 
-**April 2025:**
-🚀 Demo Release, Steam Wishlist & Marketing
-- The demo will be released as soon as possible. The earliest possible release date is 14 days after the demo game gets approved.
-- Trailers, gameplay videos, and social media content (YouTube, TikTok, Twitter, etc.) will follow to drive wishlists and community growth.
-- Consistent short-form content (clips, dev logs, challenges) will be posted to create further growth.
+**April 2025**
+🐱 Character Animations
+Add new animations for the cat character:
+- Jumping
+- Washing itself
+- Sleeping
 
-🐞 Post-Demo Updates & Bug Fixes
-- If many people play the demo, I expect new bugs and feature requests to emerge.
-- I will allocate time to fix and improve the game based on feedback.
+🕹️ Extend Partial Controller Support to Full Controller Support
+- Purchase or acquire Xbox/PlayStation controllers for testing.
+- Finalize button mappings for popular controller types.
+- Implement virtual keyboard functionality to allow custom name entry when saving to leaderboards.
 
-🐾 Character Animations
-- New animations will be implemented such as the cat jumping, washing itself and sleeping.
+🧪 System Requirements Testing
+- Test the game on various machines and virtual environments.
+- Define and publish recommended and minimum system requirements for PC.
 
-🎮 Controller support
-- I currently do not have a controller but will purchase one to ensure full support and proper testing.
+🌐 Localization
+- Add translation support for multiple languages to reach a broader audience.
 
-🖥 System requirements testing
-- I will explore virtual machines and performance benchmarks to determine recommended and minimum system requirements for 9 Trials of Whiskers.
+**Post-Launch Content**
+🏅 God Gamer Challenge
+- Launch an official speedrunning challenge.
+- Players who complete the full game under a target time and submit video proof (YouTube, stream, or Speedrun.com) will earn:
+- - An in-game statue with their name in the Hall of Fame.
 
-🏅 Achievements for Steam
-- Built in achievements in the game will be linked with Steam achievements.
+🏆 Achievements Integration (Full Release)
+- Steam achievements will be activated on full release (already implemented/tested).
 
-**Further Planned Content:**
-🏆 God Gamer Challenge & Hall of Fame
-- After the full game launch, I will announce a speedrunning challenge.
-- Players who beat the game under X seconds and submit video proof (via YouTube, stream, or Speedrun.com) will earn an in-game statue with their name in the Hall of Fame.
-
-🎗 Kickstarter & Hall of Legends
-- If I run a Kickstarter or Indiegogo, a reward tier will include an in-game statue with a short personalized message in the Hall of Legends. (The Hall of Legends will be a separate area from the Hall of Fame.)
+🏛️ Kickstarter & Hall of Legends (Conditional)
+If a Kickstarter or Indiegogo is launched:
+- One reward tier will include an in-game statue with a short personalized message in the Hall of Legends.
+- (The Hall of Legends will be a separate area from the Hall of Fame.)
